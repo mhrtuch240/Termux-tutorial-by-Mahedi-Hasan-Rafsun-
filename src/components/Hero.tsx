@@ -73,6 +73,7 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+            <a href="mailto:mahedihasanrafsun@proton.me">
             <Button 
               size="lg" 
               className="glow-button px-8 py-4 text-lg font-semibold group"
@@ -81,7 +82,9 @@ const Hero = () => {
               Start Free Course
               <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
+            </a>
             
+            <a href="/beginners_to_advance_termux.pdf" download>
             <Button 
               size="lg" 
               variant="outline"
@@ -90,6 +93,7 @@ const Hero = () => {
               <Download className="mr-2 h-5 w-5" />
               Download eBook
             </Button>
+            </a>
           </div>
 
           {/* Stats */}

@@ -135,9 +135,11 @@ const Testimonials = () => {
               Start your Termux journey today and discover the power of mobile development.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="mailto:mahedihasanrafsun@proton.me">
               <button className="glow-button bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors">
                 Start Free Course
               </button>
+              </a>
               <button className="border border-primary text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-colors">
                 View All Reviews
               </button>

@@ -65,6 +65,7 @@ const FinalCTA = () => {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
+            <a href="mailto:mahedihasanrafsun@proton.me">
             <Button 
               size="lg" 
               className="glow-button px-12 py-6 text-xl font-bold group bg-gradient-primary border-0 hover:shadow-glow-primary"
@@ -73,7 +74,9 @@ const FinalCTA = () => {
               Join Free Course
               <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
             </Button>
+            </a>
             
+            <a href="https://github.com/mhrtuch240/termux-terminal-verse.git" target="_blank" rel="noopener noreferrer">
             <Button 
               size="lg" 
               variant="outline"
@@ -82,6 +85,7 @@ const FinalCTA = () => {
               <Github className="mr-3 h-6 w-6" />
               GitHub Repository
             </Button>
+            </a>
           </div>
 
           {/* Trust Indicators */}

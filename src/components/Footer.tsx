@@ -75,7 +75,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-primary">TermuxTutorial</h3>
-                <p className="text-sm text-muted-foreground">by WebLearner Pro</p>
+                <p className="text-sm text-muted-foreground">by LWMHR - Learn With Mahedi Hasan Rafsun</p>
               </div>
             </div>
             

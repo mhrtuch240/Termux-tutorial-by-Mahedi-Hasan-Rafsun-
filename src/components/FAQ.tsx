@@ -108,12 +108,16 @@ const FAQ = () => {
               for real-time support from fellow Termux enthusiasts and experts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="https://discord.gg/GvT5TGY9" target="_blank" rel="noopener noreferrer">
               <button className="glow-button bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors">
                 Join Discord Community
               </button>
+              </a>
+              <a href="https://github.com/mhrtuch240" target="_blank" rel="noopener noreferrer">
               <button className="border border-primary text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-colors">
-                Browse GitHub Discussions
+                Github Account
               </button>
+              </a>
             </div>
           </div>
         </div>
